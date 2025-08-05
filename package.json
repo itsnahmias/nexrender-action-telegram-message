@@ -1,0 +1,28 @@
+{
+  "name": "nexrender-action-telegram-message",
+  "version": "1.0.0",
+  "description": "Telegram notifier for Nexrender prerender/postrender/error",
+  "type": "module",
+  "main": "index.js",
+  "license": "MIT",
+  "keywords": [
+    "nexrender",
+    "telegram",
+    "notification",
+    "action",
+    "after-effects"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/itsnahmias/nexrender-action-telegram-message.git"
+  },
+  "bugs": {
+    "url": "https://github.com/itsnahmias/nexrender-action-telegram-message/issues"
+  },
+  "homepage": "https://github.com/itsnahmias/nexrender-action-telegram-message#readme"
+} 

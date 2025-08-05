@@ -1,0 +1,27 @@
+{
+  "template": {
+    "src": "file:///path/to/your/project.aep",
+    "composition": "main"
+  },
+  "actions": {
+    "prerender": [
+      {
+        "module": "./nexrender-action-telegram-message",
+        "text": "🚀 Starting render job..."
+      }
+    ],
+    "postrender": [
+      {
+        "module": "./nexrender-action-telegram-message",
+        "text": "✅ Render completed successfully! File ready for download."
+      }
+    ],
+    "error": [
+      {
+        "module": "./nexrender-action-telegram-message",
+        "text": "🚨 Render failed - check logs immediately"
+      }
+    ]
+  },
+  "output": "/output/rendered-video.mp4"
+} 
